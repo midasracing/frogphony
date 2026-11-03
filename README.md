@@ -1,11 +1,13 @@
 # Frogphony
-Polish music education frontend with Kumka, a powder-pink toad mascot.
+React + TypeScript + Vite. Polish music education frontend with Kumka, the pink toad.
 
-## Run
-Node 22.13+; `npm install`, then `npm run dev`. Production: `npm run build`.
+## Development
+Node 22.13+: `npm install`, `npm run dev`. Production: `npm run build`.
 
-React 19 + TypeScript + Vinext. Three subject areas, three interactive demo lessons, practice mode, local progress and preferences. Responsive interface.
+## GitHub Pages
+In repository Settings → Pages, choose **GitHub Actions** as the source.
+Pushes to `main` build and deploy via `.github/workflows/pages.yml`.
+Expected address after successful deployment: https://midasracing.github.io/frogphony/
+Vite base is `/frogphony/`; change it if the repository is renamed or a custom domain is added.
 
-Audio is a synthetic Web Audio preview (A4=440 Hz), not a verified piano sample engine. Lessons are demonstration content, not a complete school curriculum. Progress is stored locally, without accounts. Mascot is a raster concept with CSS motion, not a Rive animation.
-
-The Sites integration files support private preview hosting. GitHub is the source handoff for this project.
+Three demo lessons, local progress, responsive UI. Synthetic audio preview; verified piano samples and Rive animation are not implemented yet. Progress is per origin and does not transfer automatically from the previous preview.
