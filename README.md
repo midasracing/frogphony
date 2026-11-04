@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/kumka.png" alt="Kumka" width="110" />&nbsp;&nbsp;<img src="docs/wordmark.svg" alt="frogphony" width="220" />
+  <img src="docs/kumka-readme.png" alt="Kumka" width="110" />&nbsp;&nbsp;<img src="docs/wordmark.svg" alt="frogphony" width="220" />
 </p>
 
 ## What is Frogphony?
