@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 1086" width="1448" height="1086" role="img">
+  <title>Kumka — vector likeness study</title>
+  <defs>
+    <linearGradient id="pink" gradientUnits="userSpaceOnUse" x1="520" y1="220" x2="920" y2="950">
+      <stop stop-color="#EBA0BD" offset="0" />
+      <stop stop-color="#E89AB8" offset="1" />
+    </linearGradient>
+    <linearGradient id="belly" gradientUnits="userSpaceOnUse" x1="570" y1="600" x2="860" y2="980">
+      <stop stop-color="#F8D6E3" offset="0" />
+      <stop stop-color="#F4CBDB" offset="1" />
+    </linearGradient>
+    <linearGradient id="spot" gradientUnits="userSpaceOnUse" x1="280" y1="500" x2="1100" y2="790">
+      <stop stop-color="#CF7B9E" offset="0" />
+      <stop stop-color="#C66E93" offset="1" />
+    </linearGradient>
+    <linearGradient id="limb" gradientUnits="userSpaceOnUse" x1="200" y1="740" x2="900" y2="1030">
+      <stop stop-color="#D984A7" offset="0" />
+      <stop stop-color="#D17C9F" offset="1" />
+    </linearGradient>
+    <linearGradient id="crease" gradientUnits="userSpaceOnUse" x1="300" y1="780" x2="1000" y2="990">
+      <stop stop-color="#D681A5" offset="0" />
+      <stop stop-color="#CE789D" offset="1" />
+    </linearGradient>
+    <linearGradient id="cream" gradientUnits="userSpaceOnUse" x1="500" y1="180" x2="800" y2="420">
+      <stop stop-color="#FFF9E9" offset="0" />
+      <stop stop-color="#FCF3E2" offset="1" />
+    </linearGradient>
+    <linearGradient id="ink" gradientUnits="userSpaceOnUse" x1="600" y1="220" x2="800" y2="520">
+      <stop stop-color="#593147" offset="0" />
+      <stop stop-color="#4E2A40" offset="1" />
+    </linearGradient>
+  </defs>
+  <g data-rig-group="leg-left" id="left-hind-leg">
+    <path d="M 225 715 C 168 699 119 729 103 773&#10; C 83 826 127 870 178 901 C 130 905 90 919 78 949&#10; C 58 988 109 1003 156 977 L 192 958 C 179 986 195 1005 222 1005&#10; C 263 1008 290 982 309 951 L 368 923 C 345 863 297 758 225 715 Z" fill="url(#limb)" />
+  </g>
+  <g data-rig-group="leg-right" id="right-hind-leg">
+    <path d="M 1139 718 C 1192 703 1252 722 1276 762&#10; C 1308 816 1264 868 1209 901 C 1262 901 1308 921 1324 950&#10; C 1346 991 1290 1004 1244 979 L 1206 959 C 1221 987 1202 1007 1171 1006&#10; C 1133 1006 1108 984 1092 953 L 1039 924 C 1066 846 1100 764 1139 718 Z" fill="url(#limb)" />
+  </g>
+  <g data-rig-group="body" id="body-contour">
+    <path d="M 369 383 C 350 350 340 313 348 273&#10; C 354 208 387 154 441 125 C 493 97 543 108 589 132&#10; C 634 156 661 199 673 249 C 706 241 742 242 773 249&#10; C 787 194 820 148 868 125 C 915 101 962 106 1005 125&#10; C 1069 153 1103 215 1101 282 C 1101 322 1090 357 1075 383&#10; C 1104 424 1126 474 1145 522 C 1168 578 1182 641 1172 707&#10; C 1175 771 1147 834 1093 880 C 1047 921 999 945 945 961&#10; C 819 992 622 987 505 962 C 422 943 335 902 278 847&#10; C 224 796 201 744 208 684 C 211 617 241 557 284 501&#10; C 319 456 345 418 369 383 Z" fill="url(#pink)" />
+  </g>
+  <g data-rig-group="arm-wave" id="waving-arm">
+    <path d="M 1094 568 C 1113 549 1138 527 1158 507&#10; C 1141 472 1144 435 1164 409 C 1183 383 1211 388 1226 405&#10; C 1241 422 1236 444 1231 459 C 1250 440 1276 417 1299 426&#10; C 1320 433 1333 453 1323 476 C 1315 491 1299 502 1288 509&#10; C 1315 516 1329 533 1315 556 C 1302 584 1276 586 1248 573&#10; C 1229 610 1201 645 1166 672 C 1148 638 1120 602 1094 568 Z" fill="url(#pink)" />
+  </g>
+  <g data-rig-group="belly" id="pale-belly">
+    <path d="M 428 718 C 491 624 602 568 720 573&#10; C 856 568 987 648 1005 763 C 980 801 949 856 930 905&#10; C 891 911 862 931 846 958 C 748 995 630 983 574 964&#10; C 557 930 518 912 487 905 C 475 840 449 767 428 718 Z" fill="url(#belly)" />
+  </g>
+  <g data-rig-group="spots-left" id="large-left-spot">
+    <path d="M 250 536 C 282 498 322 475 355 480&#10; C 394 480 418 505 406 541 C 396 578 355 611 315 622&#10; C 281 631 251 619 243 598 C 235 578 240 554 250 536 Z" fill="url(#spot)" />
+  </g>
+  <g data-rig-group="spots-left" id="small-left-spot">
+    <path d="M 268 665 C 282 643 311 638 330 647&#10; C 350 656 350 676 338 694 C 326 713 297 720 279 710&#10; C 262 702 261 681 268 665 Z" fill="url(#spot)" />
+  </g>
+  <g data-rig-group="spots-right" id="small-right-spot">
+    <path d="M 1005 557 C 1020 536 1045 536 1062 551&#10; C 1077 565 1079 588 1067 604 C 1052 624 1026 621 1011 607&#10; C 995 593 995 573 1005 557 Z" fill="url(#spot)" />
+  </g>
+  <g data-rig-group="spots-right" id="large-right-spot">
+    <path d="M 1038 652 C 1062 632 1095 639 1119 666&#10; C 1143 692 1151 726 1132 749 C 1113 773 1081 768 1056 751&#10; C 1026 731 1012 683 1038 652 Z" fill="url(#spot)" />
+  </g>
+  <g data-rig-group="arm-left" id="left-front-arm">
+    <path d="M 334 761 C 315 805 327 852 332 883&#10; C 305 864 293 844 278 825 C 296 873 325 903 365 923&#10; C 332 935 316 966 326 989 C 333 1009 357 1015 381 1006&#10; C 392 1002 403 984 412 963 C 403 989 409 1013 434 1023&#10; C 466 1037 496 1015 491 986 L 488 963 C 502 991 522 1016 548 1008&#10; C 576 1001 582 977 569 954 C 556 928 521 914 487 905&#10; C 472 843 449 787 431 724 C 393 743 361 752 334 761 Z" fill="url(#pink)" />
+  </g>
+  <g data-rig-group="arm-left" id="left-arm-crease">
+    <path d="M 334 761 C 327 826 339 883 366 923&#10; L 349 930 C 325 880 318 817 334 761 Z" fill="url(#crease)" />
+  </g>
+  <g data-rig-group="arm-right" id="right-front-arm">
+    <path d="M 1005 763 C 1026 791 1053 811 1091 814&#10; C 1090 854 1072 889 1042 919 C 1071 927 1091 945 1099 965&#10; C 1110 993 1092 1010 1068 1010 C 1042 1010 1024 988 1008 968&#10; C 1019 996 1007 1019 983 1025 C 956 1032 934 1012 935 989 L 938 969&#10; C 921 997 898 1013 875 1007 C 848 1001 836 980 849 957&#10; C 863 929 894 913 930 905 C 950 849 974 802 1005 763 Z" fill="url(#pink)" />
+  </g>
+  <g data-rig-group="arm-right" id="right-arm-crease">
+    <path d="M 1091 814 C 1082 860 1066 895 1042 919&#10; L 1058 925 C 1082 890 1095 848 1091 814 Z" fill="url(#crease)" />
+  </g>
+  <g data-rig-group="eye-left" id="left-eye-white">
+    <path d="M 469 179 C 508 176 563 215 597 257&#10; C 626 291 636 322 624 352 C 612 389 578 414 541 419&#10; C 498 424 451 406 417 374 C 391 348 380 314 388 280&#10; C 397 233 434 185 469 179 Z" fill="url(#cream)" />
+  </g>
+  <g data-rig-group="eye-left" id="left-pupil">
+    <path d="M 547 210 C 577 225 599 250 607 277&#10; C 617 311 602 350 575 368 C 551 384 521 375 501 356&#10; C 476 334 470 305 480 275 C 489 243 515 214 547 210 Z" fill="url(#ink)" />
+  </g>
+  <g data-rig-group="eye-left" id="left-eye-glint">
+    <path d="M 573 239 C 584 237 593 247 593 258&#10; C 594 271 585 281 574 281 C 563 280 553 270 553 259&#10; C 552 248 560 239 573 239 Z" fill="url(#cream)" />
+  </g>
+  <g data-rig-group="eye-right" id="right-eye-white">
+    <path d="M 974 179 C 1008 179 1036 207 1050 244&#10; C 1068 288 1054 338 1026 374 C 1001 404 965 421 929 420&#10; C 882 421 841 390 824 353 C 806 321 825 286 850 261&#10; C 884 223 940 181 974 179 Z" fill="url(#cream)" />
+  </g>
+  <g data-rig-group="eye-right" id="right-pupil">
+    <path d="M 900 210 C 932 208 956 231 969 261&#10; C 985 293 976 329 954 353 C 934 377 908 382 883 369&#10; C 853 353 836 319 840 286 C 842 257 862 223 886 213&#10; C 891 211 895 210 900 210 Z" fill="url(#ink)" />
+  </g>
+  <g data-rig-group="eye-right" id="right-eye-glint">
+    <path d="M 936 239 C 948 236 957 247 958 258&#10; C 958 271 950 281 938 281 C 927 281 917 271 917 259&#10; C 916 249 924 240 936 239 Z" fill="url(#cream)" />
+  </g>
+  <g data-rig-group="nose" id="nostril-left">
+    <path d="M 679 369 C 688 366 702 377 704 386&#10; C 707 398 697 403 687 396 C 677 391 666 374 679 369 Z" fill="url(#ink)" />
+  </g>
+  <g data-rig-group="nose" id="nostril-right">
+    <path d="M 765 368 C 777 367 774 383 765 392&#10; C 758 401 747 400 744 391 C 741 381 756 367 765 368 Z" fill="url(#ink)" />
+  </g>
+  <g data-rig-group="mouth" id="smile">
+    <path d="M 563 444 C 652 499 790 503 879 441&#10; C 886 437 895 440 899 446 C 814 540 646 548 552 467&#10; C 536 453 548 435 563 444 Z" fill="url(#ink)" />
+  </g>
+  <g data-rig-group="mouth" id="smile-corner">
+    <path d="M 883 421 C 900 423 916 437 921 449&#10; C 927 462 917 466 907 458 C 899 449 889 442 879 438&#10; C 865 432 869 418 883 421 Z" fill="url(#ink)" />
+  </g>
+</svg>

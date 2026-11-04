@@ -1,0 +1,431 @@
+<Rive version="1" kind="fragment">
+  <Artboard name="Kumka vector study" id="0:2" width="724" height="543" styleId="0:5">
+    <LayoutComponentStyle id="0:5" />
+    <Node name="Kumka" id="0:100" scaleX=".5" scaleY=".5">
+      <Node name="mouth / smile-corner" id="0:110">
+        <Shape name="smile-corner" id="0:111">
+          <PointsPath name="Bezier contour" id="0:112" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="883.0" y="421.0" id="0:113" inRotation="-2.930499320367047" inDistance="14.317821063276353" outRotation="0.11710874456686428" outDistance="17.11724276862369" />
+            <CubicDetachedVertex x="921.0" y="449.0" id="0:114" inRotation="-1.965587446494658" inDistance="13.0" outRotation="1.1383885512243588" outDistance="14.317821063276353" />
+            <CubicDetachedVertex x="907.0" y="458.0" id="0:115" inRotation="0.6747409422235526" inDistance="12.806248474865697" outRotation="-2.297438667476622" outDistance="12.041594578792296" />
+            <CubicDetachedVertex x="879.0" y="438.0" id="0:116" inRotation="0.3805063771123649" inDistance="10.770329614269007" outRotation="-2.7367008673047097" outDistance="15.231546211727817" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="ink" startX="600" startY="220" endX="800" endY="520">
+              <GradientStop colorValue="FF593147" position="0" />
+              <GradientStop colorValue="FF4E2A40" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="mouth / smile" id="0:117">
+        <Shape name="smile" id="0:118">
+          <PointsPath name="Bezier contour" id="0:119" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="563.0" y="444.0" id="0:120" inRotation="-2.601173153319209" inDistance="17.4928556845359" outRotation="0.5535335025480596" outDistance="104.62313319720452" />
+            <CubicDetachedVertex x="879.0" y="441.0" id="0:121" inRotation="2.533132546350048" inDistance="108.4665847162157" outRotation="-0.5191461142465229" outDistance="8.06225774829855" />
+            <CubicDetachedVertex x="899.0" y="446.0" id="0:122" inRotation="-2.158798930342464" inDistance="7.211102550927978" outRotation="2.305957465333004" outDistance="126.73200069437868" />
+            <CubicDetachedVertex x="552.0" y="467.0" id="0:123" inRotation="0.7112486437388276" inDistance="124.08464852672147" outRotation="-2.4227626539681686" outDistance="21.2602916254693" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="ink" startX="600" startY="220" endX="800" endY="520">
+              <GradientStop colorValue="FF593147" position="0" />
+              <GradientStop colorValue="FF4E2A40" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="nose / nostril-right" id="0:124">
+        <Shape name="nostril-right" id="0:125">
+          <PointsPath name="Bezier contour" id="0:126" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="765.0" y="368.0" id="0:127" inRotation="-3.0309354324158977" inDistance="9.055385138137417" outRotation="-0.08314123188844123" outDistance="12.041594578792296" />
+            <CubicDetachedVertex x="765.0" y="392.0" id="0:128" inRotation="-0.7853981633974483" inDistance="12.727922061357855" outRotation="2.2318394956455836" outDistance="11.40175425099138" />
+            <CubicDetachedVertex x="744.0" y="391.0" id="0:129" inRotation="1.2490457723982544" inDistance="9.486832980505138" outRotation="-1.8622531212727638" outDistance="10.44030650891055" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="ink" startX="600" startY="220" endX="800" endY="520">
+              <GradientStop colorValue="FF593147" position="0" />
+              <GradientStop colorValue="FF4E2A40" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="nose / nostril-left" id="0:130">
+        <Shape name="nostril-left" id="0:131">
+          <PointsPath name="Bezier contour" id="0:132" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="679.0" y="369.0" id="0:133" inRotation="2.774418819771574" inDistance="13.92838827718412" outRotation="-0.3217505543966422" outDistance="9.486832980505138" />
+            <CubicDetachedVertex x="704.0" y="386.0" id="0:134" inRotation="-1.7894652726688385" inDistance="9.219544457292887" outRotation="1.3258176636680326" outDistance="12.36931687685298" />
+            <CubicDetachedVertex x="687.0" y="396.0" id="0:135" inRotation="0.6107259643892086" inDistance="12.206555615733702" outRotation="-2.677945044588987" outDistance="11.180339887498949" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="ink" startX="600" startY="220" endX="800" endY="520">
+              <GradientStop colorValue="FF593147" position="0" />
+              <GradientStop colorValue="FF4E2A40" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="eye-right / right-eye-glint" id="0:136">
+        <Shape name="right-eye-glint" id="0:137">
+          <PointsPath name="Bezier contour" id="0:138" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="936.0" y="239.0" id="0:139" inRotation="3.058451421701352" inDistance="12.041594578792296" outRotation="-0.24497866312686414" outDistance="12.36931687685298" />
+            <CubicDetachedVertex x="958.0" y="258.0" id="0:140" inRotation="-1.6614562139956417" inDistance="11.045361017187261" outRotation="1.5707963267948966" outDistance="13.0" />
+            <CubicDetachedVertex x="938.0" y="281.0" id="0:141" inRotation="0.0" inDistance="12.0" outRotation="3.141592653589793" outDistance="11.0" />
+            <CubicDetachedVertex x="917.0" y="259.0" id="0:142" inRotation="1.5707963267948966" inDistance="12.0" outRotation="-1.6704649792860586" outDistance="10.04987562112089" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="cream" startX="500" startY="180" endX="800" endY="420">
+              <GradientStop colorValue="FFFFF9E9" position="0" />
+              <GradientStop colorValue="FFFCF3E2" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="eye-right / right-pupil" id="0:143">
+        <Shape name="right-pupil" id="0:144">
+          <PointsPath name="Bezier contour" id="0:145" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="900.0" y="210.0" id="0:146" inRotation="3.141592653589793" inDistance="5.0" outRotation="-0.06241880999595735" outDistance="32.0624390837628" />
+            <CubicDetachedVertex x="969.0" y="261.0" id="0:147" inRotation="-1.979704155745822" inDistance="32.69556544854363" outRotation="1.1071487177940904" outDistance="35.77708763999664" />
+            <CubicDetachedVertex x="954.0" y="353.0" id="0:148" inRotation="-0.8288490587889792" inDistance="32.55764119219941" outRotation="2.2655346029916" outDistance="31.240998703626616" />
+            <CubicDetachedVertex x="883.0" y="369.0" id="0:149" inRotation="0.4795192919925962" inDistance="28.178005607210743" outRotation="-2.651635327336065" outDistance="34.0" />
+            <CubicDetachedVertex x="840.0" y="286.0" id="0:150" inRotation="1.6914199953749993" inDistance="33.24154027718932" outRotation="-1.501939837493852" outDistance="29.068883707497267" />
+            <CubicDetachedVertex x="886.0" y="213.0" id="0:151" inRotation="2.746801533890032" inDistance="26.0" outRotation="-0.3805063771123649" outDistance="5.385164807134504" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="ink" startX="600" startY="220" endX="800" endY="520">
+              <GradientStop colorValue="FF593147" position="0" />
+              <GradientStop colorValue="FF4E2A40" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="eye-right / right-eye-white" id="0:152">
+        <Shape name="right-eye-white" id="0:153">
+          <PointsPath name="Bezier contour" id="0:154" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="974.0" y="179.0" id="0:155" inRotation="3.0828368308740703" inDistance="34.058772731852805" outRotation="0.0" outDistance="34.0" />
+            <CubicDetachedVertex x="1050.0" y="244.0" id="0:156" inRotation="-1.9325255683148288" inDistance="39.56008088970496" outRotation="1.1824776086224307" outDistance="47.53945729601885" />
+            <CubicDetachedVertex x="1026.0" y="374.0" id="0:157" inRotation="-0.9097531579442097" inDistance="45.60701700396552" outRotation="2.2655346029916" outDistance="39.05124837953327" />
+            <CubicDetachedVertex x="929.0" y="420.0" id="0:158" inRotation="0.027770636593421036" inDistance="36.013886210738214" outRotation="3.120319267565732" outDistance="47.01063709417264" />
+            <CubicDetachedVertex x="824.0" y="353.0" id="0:159" inRotation="1.1401038154083887" inDistance="40.718546143004666" outRotation="-2.0831857871056343" outDistance="36.71511950137164" />
+            <CubicDetachedVertex x="850.0" y="261.0" id="0:160" inRotation="2.356194490192345" inDistance="35.35533905932738" outRotation="-0.8408966686431651" outDistance="50.99019513592785" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="cream" startX="500" startY="180" endX="800" endY="420">
+              <GradientStop colorValue="FFFFF9E9" position="0" />
+              <GradientStop colorValue="FFFCF3E2" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="eye-left / left-eye-glint" id="0:161">
+        <Shape name="left-eye-glint" id="0:162">
+          <PointsPath name="Bezier contour" id="0:163" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="573.0" y="239.0" id="0:164" inRotation="3.141592653589793" inDistance="13.0" outRotation="-0.17985349979247828" outDistance="11.180339887498949" />
+            <CubicDetachedVertex x="593.0" y="258.0" id="0:165" inRotation="-1.5707963267948966" inDistance="11.0" outRotation="1.4940244355251187" outDistance="13.038404810405298" />
+            <CubicDetachedVertex x="574.0" y="281.0" id="0:166" inRotation="0.0" inDistance="11.0" outRotation="-3.050932766389048" outDistance="11.045361017187261" />
+            <CubicDetachedVertex x="553.0" y="259.0" id="0:167" inRotation="1.5707963267948966" inDistance="11.0" outRotation="-1.6614562139956417" outDistance="11.045361017187261" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="cream" startX="500" startY="180" endX="800" endY="420">
+              <GradientStop colorValue="FFFFF9E9" position="0" />
+              <GradientStop colorValue="FFFCF3E2" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="eye-left / left-pupil" id="0:168">
+        <Shape name="left-pupil" id="0:169">
+          <PointsPath name="Bezier contour" id="0:170" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="547.0" y="210.0" id="0:171" inRotation="3.017237659043032" inDistance="32.2490309931942" outRotation="0.4636476090008061" outDistance="33.54101966249684" />
+            <CubicDetachedVertex x="607.0" y="277.0" id="0:172" inRotation="-1.8588517738455226" inDistance="28.160255680657446" outRotation="1.2847448850775784" outDistance="35.4400902933387" />
+            <CubicDetachedVertex x="575.0" y="368.0" id="0:173" inRotation="-0.5880026035475675" inDistance="32.449961479175904" outRotation="2.5535900500422257" outDistance="28.844410203711913" />
+            <CubicDetachedVertex x="501.0" y="356.0" id="0:174" inRotation="0.7597627548757708" inDistance="27.586228448267445" outRotation="-2.419937802725032" outDistance="33.301651610693426" />
+            <CubicDetachedVertex x="480.0" y="275.0" id="0:175" inRotation="1.892546881191539" inDistance="31.622776601683793" outRotation="-1.2966288756752378" outDistance="33.24154027718932" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="ink" startX="600" startY="220" endX="800" endY="520">
+              <GradientStop colorValue="FF593147" position="0" />
+              <GradientStop colorValue="FF4E2A40" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="eye-left / left-eye-white" id="0:176">
+        <Shape name="left-eye-white" id="0:177">
+          <PointsPath name="Bezier contour" id="0:178" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="469.0" y="179.0" id="0:179" inRotation="2.971814379621455" inDistance="35.510561809129406" outRotation="-0.07677189126977804" outDistance="39.11521443121589" />
+            <CubicDetachedVertex x="597.0" y="257.0" id="0:180" inRotation="-2.251317551462111" inDistance="54.037024344425184" outRotation="0.8645972343668998" outDistance="44.68780594300866" />
+            <CubicDetachedVertex x="624.0" y="352.0" id="0:181" inRotation="-1.1902899496825317" inDistance="32.31098884280702" outRotation="1.884416979011595" outDistance="38.897300677553446" />
+            <CubicDetachedVertex x="541.0" y="419.0" id="0:182" inRotation="-0.1343214419529685" inDistance="37.33630940518894" outRotation="3.0258334358689827" outDistance="43.289721643826724" />
+            <CubicDetachedVertex x="417.0" y="374.0" id="0:183" inRotation="0.7551044034786732" inDistance="46.69047011971501" outRotation="-2.356194490192345" outDistance="36.76955262170047" />
+            <CubicDetachedVertex x="388.0" y="280.0" id="0:184" inRotation="1.8018869939907938" inDistance="34.92849839314596" outRotation="-1.3815973046949284" outDistance="47.853944456021594" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="cream" startX="500" startY="180" endX="800" endY="420">
+              <GradientStop colorValue="FFFFF9E9" position="0" />
+              <GradientStop colorValue="FFFCF3E2" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="arm-right / right-arm-crease" id="0:185">
+        <Shape name="right-arm-crease" id="0:186">
+          <PointsPath name="Bezier contour" id="0:187" isClosed="true" isClockwise="false">
+            <CubicDetachedVertex x="1091.0" y="814.0" id="0:188" inRotation="1.4536875822280324" inDistance="34.23448553724738" outRotation="1.7640078106427026" outDistance="46.87216658103186" />
+            <CubicDetachedVertex x="1042.0" y="919.0" id="0:189" inRotation="-0.7853981633974483" inDistance="33.94112549695428" outRotation="0.0" outDistance="0.0" />
+            <CubicDetachedVertex x="1058.0" y="925.0" id="0:190" inRotation="0.0" inDistance="0.0" outRotation="-0.9697225722971473" outDistance="42.43819034784589" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="crease" startX="300" startY="780" endX="1000" endY="990">
+              <GradientStop colorValue="FFD681A5" position="0" />
+              <GradientStop colorValue="FFCE789D" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="arm-right / right-front-arm" id="0:191">
+        <Shape name="right-front-arm" id="0:192">
+          <PointsPath name="Bezier contour" id="0:193" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="1005.0" y="763.0" id="0:194" inRotation="2.242402483048637" inDistance="49.8196748283246" outRotation="0.9272952180016122" outDistance="35.0" />
+            <CubicDetachedVertex x="1091.0" y="814.0" id="0:195" inRotation="-3.0628086926006493" inDistance="38.118237105091836" outRotation="1.5957911204138169" outDistance="40.01249804748511" />
+            <CubicDetachedVertex x="1042.0" y="919.0" id="0:196" inRotation="-0.7853981633974483" inDistance="42.42640687119285" outRotation="0.26916749278570046" outDistance="30.083217912982647" />
+            <CubicDetachedVertex x="1099.0" y="965.0" id="0:197" inRotation="-1.9513027039072615" inDistance="21.540659228538015" outRotation="1.1964627107873127" outDistance="30.083217912982647" />
+            <CubicDetachedVertex x="1068.0" y="1010.0" id="0:198" inRotation="0.0" inDistance="24.0" outRotation="3.141592653589793" outDistance="26.0" />
+            <CubicDetachedVertex x="1008.0" y="968.0" id="0:199" inRotation="0.8960553845713439" inDistance="25.612496949731394" outRotation="1.1964627107873127" outDistance="30.083217912982647" />
+            <CubicDetachedVertex x="983.0" y="1025.0" id="0:200" inRotation="-0.24497866312686414" inDistance="24.73863375370596" outRotation="2.8879185574511506" outDistance="27.892651361962706" />
+            <CubicDetachedVertex x="935.0" y="989.0" id="0:201" inRotation="1.6142472221864275" inDistance="23.021728866442675" outRotation="0.0" outDistance="0.0" />
+            <CubicDetachedVertex x="938.0" y="969.0" id="0:202" inRotation="0.0" inDistance="0.0" outRotation="2.1164513813218884" outDistance="32.7566787083184" />
+            <CubicDetachedVertex x="875.0" y="1007.0" id="0:203" inRotation="0.2551823906208184" inDistance="23.769728648009426" outRotation="-2.922923707715851" outDistance="27.65863337187866" />
+            <CubicDetachedVertex x="849.0" y="957.0" id="0:204" inRotation="2.0852476398539244" inDistance="26.419689627245813" outRotation="-1.1071487177940904" outDistance="31.304951684997057" />
+            <CubicDetachedVertex x="930.0" y="905.0" id="0:205" inRotation="2.922923707715851" inDistance="36.87817782917155" outRotation="-1.2277723863741932" outDistance="59.464274989274024" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="pink" startX="520" startY="220" endX="920" endY="950">
+              <GradientStop colorValue="FFEBA0BD" position="0" />
+              <GradientStop colorValue="FFE89AB8" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="arm-left / left-arm-crease" id="0:206">
+        <Shape name="left-arm-crease" id="0:207">
+          <PointsPath name="Bezier contour" id="0:208" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="334.0" y="761.0" id="0:209" inRotation="1.849095985800008" inDistance="58.240879114244144" outRotation="1.6780751824432993" outDistance="65.37583651472461" />
+            <CubicDetachedVertex x="366.0" y="923.0" id="0:210" inRotation="-2.164545993505668" inDistance="48.25971404805462" outRotation="0.0" outDistance="0.0" />
+            <CubicDetachedVertex x="349.0" y="930.0" id="0:211" inRotation="0.0" inDistance="0.0" outRotation="-2.0183163019520665" outDistance="55.46169849544819" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="crease" startX="300" startY="780" endX="1000" endY="990">
+              <GradientStop colorValue="FFD681A5" position="0" />
+              <GradientStop colorValue="FFCE789D" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="arm-left / left-front-arm" id="0:212">
+        <Shape name="left-front-arm" id="0:213">
+          <PointsPath name="Bezier contour" id="0:214" isClosed="true" isClockwise="false">
+            <CubicDetachedVertex x="334.0" y="761.0" id="0:215" inRotation="-0.3217505543966422" inDistance="28.460498941515414" outRotation="1.9784278322525235" outDistance="47.92702786528704" />
+            <CubicDetachedVertex x="332.0" y="883.0" id="0:216" inRotation="-1.730709449953116" inDistance="31.400636936215164" outRotation="-2.5283853047152838" outDistance="33.015148038438355" />
+            <CubicDetachedVertex x="278.0" y="825.0" id="0:217" inRotation="0.9025069079643125" inDistance="24.20743687382041" outRotation="1.2120256565243244" outDistance="51.264022471905186" />
+            <CubicDetachedVertex x="365.0" y="923.0" id="0:218" inRotation="-2.677945044588987" inDistance="44.721359549995796" outRotation="2.7928216500058864" outDistance="35.11409973215888" />
+            <CubicDetachedVertex x="326.0" y="989.0" id="0:219" inRotation="-1.9809236673363877" inDistance="25.079872407968907" outRotation="1.2341215074081695" outDistance="21.18962010041709" />
+            <CubicDetachedVertex x="381.0" y="1006.0" id="0:220" inRotation="2.782821983319221" inDistance="25.632011235952593" outRotation="-0.348771003583907" outDistance="11.704699910719626" />
+            <CubicDetachedVertex x="412.0" y="963.0" id="0:221" inRotation="1.97568811307998" inDistance="22.847319317591726" outRotation="1.9040406279065694" outDistance="27.51363298439521" />
+            <CubicDetachedVertex x="434.0" y="1023.0" id="0:222" inRotation="-2.761086276477428" inDistance="26.92582403567252" outRotation="0.4124104415973873" outDistance="34.92849839314596" />
+            <CubicDetachedVertex x="491.0" y="986.0" id="0:223" inRotation="1.4000611153196139" inDistance="29.427877939124322" outRotation="0.0" outDistance="0.0" />
+            <CubicDetachedVertex x="488.0" y="963.0" id="0:224" inRotation="0.0" inDistance="0.0" outRotation="1.1071487177940904" outDistance="31.304951684997057" />
+            <CubicDetachedVertex x="548.0" y="1008.0" id="0:225" inRotation="2.843093722003614" inDistance="27.202941017470888" outRotation="-0.24497866312686414" outDistance="28.861739379323623" />
+            <CubicDetachedVertex x="569.0" y="954.0" id="0:226" inRotation="1.0563450137358688" inDistance="26.419689627245813" outRotation="-2.0344439357957027" outDistance="29.068883707497267" />
+            <CubicDetachedVertex x="487.0" y="905.0" id="0:227" inRotation="0.2587708919636976" inDistance="35.17101079013795" outRotation="-1.8081705737680673" outDistance="63.788713735268246" />
+            <CubicDetachedVertex x="431.0" y="724.0" id="0:228" inRotation="1.2924966677897853" inDistance="65.52098900352466" outRotation="2.677945044588987" outDistance="42.485291572496" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="pink" startX="520" startY="220" endX="920" endY="950">
+              <GradientStop colorValue="FFEBA0BD" position="0" />
+              <GradientStop colorValue="FFE89AB8" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="spots-right / large-right-spot" id="0:229">
+        <Shape name="large-right-spot" id="0:230">
+          <PointsPath name="Bezier contour" id="0:231" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="1038.0" y="652.0" id="0:232" inRotation="2.2686991493899535" inDistance="40.45985664828782" outRotation="-0.6947382761967031" outDistance="31.240998703626616" />
+            <CubicDetachedVertex x="1119.0" y="666.0" id="0:233" inRotation="-2.297438667476622" inDistance="36.124783736376884" outRotation="0.8253768505207384" outDistance="35.38361202590826" />
+            <CubicDetachedVertex x="1132.0" y="749.0" id="0:234" inRotation="-0.8803498697402047" inDistance="29.832867780352597" outRotation="2.2404352724715344" outDistance="30.610455730027933" />
+            <CubicDetachedVertex x="1056.0" y="751.0" id="0:235" inRotation="0.5971766580926775" inDistance="30.23243291566195" outRotation="-2.5535900500422257" outDistance="36.05551275463989" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="spot" startX="280" startY="500" endX="1100" endY="790">
+              <GradientStop colorValue="FFCF7B9E" position="0" />
+              <GradientStop colorValue="FFC66E93" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="spots-right / small-right-spot" id="0:236">
+        <Shape name="small-right-spot" id="0:237">
+          <PointsPath name="Bezier contour" id="0:238" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="1005.0" y="557.0" id="0:239" inRotation="2.129395642138459" inDistance="18.867962264113206" outRotation="-0.9505468408120752" outDistance="25.80697580112788" />
+            <CubicDetachedVertex x="1062.0" y="551.0" id="0:240" inRotation="-2.4186133001883023" inDistance="22.67156809750927" outRotation="0.7509290623979403" outDistance="20.518284528683193" />
+            <CubicDetachedVertex x="1067.0" y="604.0" id="0:241" inRotation="-0.9272952180016122" inDistance="20.0" outRotation="2.214297435588181" outDistance="25.0" />
+            <CubicDetachedVertex x="1011.0" y="607.0" id="0:242" inRotation="0.7509290623979403" inDistance="20.518284528683193" outRotation="-2.4227626539681686" outDistance="21.2602916254693" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="spot" startX="280" startY="500" endX="1100" endY="790">
+              <GradientStop colorValue="FFCF7B9E" position="0" />
+              <GradientStop colorValue="FFC66E93" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="spots-left / small-left-spot" id="0:243">
+        <Shape name="small-left-spot" id="0:244">
+          <PointsPath name="Bezier contour" id="0:245" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="268.0" y="665.0" id="0:246" inRotation="1.9832067683922838" inDistance="17.46424919657298" outRotation="-1.0040671092713902" outDistance="26.076809620810597" />
+            <CubicDetachedVertex x="330.0" y="647.0" id="0:247" inRotation="-2.6992184306130484" inDistance="21.02379604162864" outRotation="0.4228539261329407" outDistance="21.93171219946131" />
+            <CubicDetachedVertex x="338.0" y="694.0" id="0:248" inRotation="-0.982793723247329" inDistance="21.633307652783937" outRotation="2.1341125882868646" outDistance="22.47220505424423" />
+            <CubicDetachedVertex x="279.0" y="710.0" id="0:249" inRotation="0.507098504392337" inDistance="20.591260281974" outRotation="-2.701750070774057" outDistance="18.788294228055936" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="spot" startX="280" startY="500" endX="1100" endY="790">
+              <GradientStop colorValue="FFCF7B9E" position="0" />
+              <GradientStop colorValue="FFC66E93" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="spots-left / large-left-spot" id="0:250">
+        <Shape name="large-left-spot" id="0:251">
+          <PointsPath name="Bezier contour" id="0:252" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="250.0" y="536.0" id="0:253" inRotation="2.0778948311872334" inDistance="20.591260281974" outRotation="-0.870903457075653" outDistance="49.678969393496885" />
+            <CubicDetachedVertex x="355.0" y="480.0" id="0:254" inRotation="-2.9912212255826587" inDistance="33.37663853655727" outRotation="0.0" outDistance="39.0" />
+            <CubicDetachedVertex x="406.0" y="541.0" id="0:255" inRotation="-1.2490457723982544" inDistance="37.94733192202055" outRotation="1.8347600504206012" outDistance="38.3275357934736" />
+            <CubicDetachedVertex x="315.0" y="622.0" id="0:256" inRotation="-0.26836621090590684" inDistance="41.48493702538308" outRotation="2.8828217616260954" outDistance="35.17101079013795" />
+            <CubicDetachedVertex x="243.0" y="598.0" id="0:257" inRotation="1.2068173702852525" inDistance="22.47220505424423" outRotation="-1.9513027039072615" outDistance="21.540659228538015" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="spot" startX="280" startY="500" endX="1100" endY="790">
+              <GradientStop colorValue="FFCF7B9E" position="0" />
+              <GradientStop colorValue="FFC66E93" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="belly / pale-belly" id="0:258">
+        <Shape name="pale-belly" id="0:259">
+          <PointsPath name="Bezier contour" id="0:260" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="428.0" y="718.0" id="0:261" inRotation="1.1659045405098132" inDistance="53.31041174104736" outRotation="-0.9803427477630834" outDistance="113.1591799192624" />
+            <CubicDetachedVertex x="720.0" y="573.0" id="0:262" inRotation="-3.0992451045692175" inDistance="118.10588469674151" outRotation="-0.03674815504299563" outDistance="136.09188072769072" />
+            <CubicDetachedVertex x="1005.0" y="763.0" id="0:263" inRotation="-1.7260583207020066" inDistance="116.40017182117903" outRotation="2.1527014449347823" outDistance="45.48626166217664" />
+            <CubicDetachedVertex x="930.0" y="905.0" id="0:264" inRotation="-1.200890259338339" inDistance="52.55473337388365" outRotation="2.988943325194528" outDistance="39.45883931389772" />
+            <CubicDetachedVertex x="846.0" y="958.0" id="0:265" inRotation="-1.0358412530088001" inDistance="31.38470965295043" outRotation="2.7805873501673304" outDistance="104.75208828467335" />
+            <CubicDetachedVertex x="574.0" y="964.0" id="0:266" inRotation="0.32709809700579284" inDistance="59.135437767890075" outRotation="-2.0344439357957027" outDistance="38.01315561749642" />
+            <CubicDetachedVertex x="487.0" y="905.0" id="0:267" inRotation="0.22208190190548016" inDistance="31.78049716414141" outRotation="-1.7533561799258035" outDistance="66.09841147864296" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="belly" startX="570" startY="600" endX="860" endY="980">
+              <GradientStop colorValue="FFF8D6E3" position="0" />
+              <GradientStop colorValue="FFF4CBDB" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="arm-wave / waving-arm" id="0:268">
+        <Shape name="waving-arm" id="0:269">
+          <PointsPath name="Bezier contour" id="0:270" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="1094.0" y="568.0" id="0:271" inRotation="0.9179496956941223" inDistance="42.80186911806539" outRotation="-0.7853981633974483" outDistance="26.870057685088806" />
+            <CubicDetachedVertex x="1158.0" y="507.0" id="0:272" inRotation="2.356194490192345" inDistance="28.284271247461902" outRotation="-2.0229501890806723" outDistance="38.91015291668744" />
+            <CubicDetachedVertex x="1164.0" y="409.0" id="0:273" inRotation="2.2264919530364327" inDistance="32.802438933713454" outRotation="-0.9397169393235674" outDistance="32.202484376209235" />
+            <CubicDetachedVertex x="1226.0" y="405.0" id="0:274" inRotation="-2.293775680196388" inDistance="22.67156809750927" outRotation="0.8478169733934057" outDistance="22.67156809750927" />
+            <CubicDetachedVertex x="1231.0" y="459.0" id="0:275" inRotation="-1.2490457723982544" inDistance="15.811388300841896" outRotation="-0.7853981633974483" outDistance="26.870057685088806" />
+            <CubicDetachedVertex x="1299.0" y="426.0" id="0:276" inRotation="-2.7686049317897323" inDistance="24.698178070456937" outRotation="0.3217505543966422" outDistance="22.135943621178654" />
+            <CubicDetachedVertex x="1323.0" y="476.0" id="0:277" inRotation="-1.1606689862534056" inDistance="25.079872407968907" outRotation="2.060753653048625" outDistance="17.0" />
+            <CubicDetachedVertex x="1288.0" y="509.0" id="0:278" inRotation="-0.5667292175235064" inDistance="13.038404810405298" outRotation="0.2536740961386427" outDistance="27.892651361962706" />
+            <CubicDetachedVertex x="1315.0" y="556.0" id="0:279" inRotation="-1.0240074859056494" inDistance="26.92582403567252" outRotation="2.0054665419441413" outDistance="30.870698080866262" />
+            <CubicDetachedVertex x="1248.0" y="573.0" id="0:280" inRotation="0.4346702151492448" inDistance="30.870698080866262" outRotation="2.045196209586804" outDistance="41.593268686170845" />
+            <CubicDetachedVertex x="1166.0" y="672.0" id="0:281" inRotation="-0.6570749357116535" inDistance="44.204072210600685" outRotation="-2.0576955586061656" outDistance="38.47076812334269" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="pink" startX="520" startY="220" endX="920" endY="950">
+              <GradientStop colorValue="FFEBA0BD" position="0" />
+              <GradientStop colorValue="FFE89AB8" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="body / body-contour" id="0:282">
+        <Shape name="body-contour" id="0:283">
+          <PointsPath name="Bezier contour" id="0:284" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="369.0" y="383.0" id="0:285" inRotation="2.171870081292646" inDistance="42.43819034784589" outRotation="-2.0931997585114255" outDistance="38.07886552931954" />
+            <CubicDetachedVertex x="348.0" y="273.0" id="0:286" inRotation="1.7681918866447774" inDistance="40.792156108742276" outRotation="-1.4787494779314898" outDistance="65.27633568147036" />
+            <CubicDetachedVertex x="441.0" y="125.0" id="0:287" inRotation="2.6487562565961924" inDistance="61.29437168288782" outRotation="-0.49394136891958124" outDistance="59.0592922409336" />
+            <CubicDetachedVertex x="589.0" y="132.0" id="0:288" inRotation="-2.6607053733944572" inDistance="51.884487084291386" outRotation="0.4899573262537283" outDistance="51.0" />
+            <CubicDetachedVertex x="673.0" y="249.0" id="0:289" inRotation="-1.80634130751576" inDistance="51.419840528729765" outRotation="-0.23783592745745075" outDistance="33.95585369269929" />
+            <CubicDetachedVertex x="773.0" y="249.0" id="0:290" inRotation="-2.9195107516843133" inDistance="31.78049716414141" outRotation="-1.321544185409683" outDistance="56.753854494650845" />
+            <CubicDetachedVertex x="868.0" y="125.0" id="0:291" inRotation="2.694750185104029" inDistance="53.225933528685054" outRotation="-0.47212198240377673" outDistance="52.773099207835045" />
+            <CubicDetachedVertex x="1005.0" y="125.0" id="0:292" inRotation="-2.7255281478659703" inDistance="47.01063709417264" outRotation="0.4124104415973873" outDistance="69.85699678629192" />
+            <CubicDetachedVertex x="1101.0" y="282.0" id="0:293" inRotation="-1.5409544421277872" inDistance="67.02984409947557" outRotation="1.5707963267948966" outDistance="40.0" />
+            <CubicDetachedVertex x="1075.0" y="383.0" id="0:294" inRotation="-1.047518004662921" inDistance="30.01666203960727" outRotation="0.9551764373657867" outDistance="50.21951811795888" />
+            <CubicDetachedVertex x="1145.0" y="522.0" id="0:295" inRotation="-1.9477055971197177" inDistance="51.62363799656123" outRotation="1.181087755452031" outDistance="60.53924347066124" />
+            <CubicDetachedVertex x="1172.0" y="707.0" id="0:296" inRotation="-1.4204248987877621" inDistance="66.75327707311455" outRotation="1.523955613878927" outDistance="64.07027391856539" />
+            <CubicDetachedVertex x="1093.0" y="880.0" id="0:297" inRotation="-0.705568177685211" inDistance="70.9365914038728" outRotation="2.4136026048291446" outDistance="61.61980201201558" />
+            <CubicDetachedVertex x="945.0" y="961.0" id="0:298" inRotation="-0.28805544705062586" inDistance="56.32051136131489" outRotation="2.9003522908057295" outDistance="129.75746606650424" />
+            <CubicDetachedVertex x="505.0" y="962.0" id="0:299" inRotation="0.21050956212735614" inDistance="119.64113005150027" outRotation="-2.9165543670971883" outDistance="85.14693182963201" />
+            <CubicDetachedVertex x="278.0" y="847.0" id="0:300" inRotation="0.7675429182578958" inDistance="79.20858539325141" outRotation="-2.384758148031105" outDistance="74.27651041883968" />
+            <CubicDetachedVertex x="208.0" y="684.0" id="0:301" inRotation="1.6869379536748867" inDistance="60.40695324215582" outRotation="-1.526050095340281" outDistance="67.06713054842886" />
+            <CubicDetachedVertex x="284.0" y="501.0" id="0:302" inRotation="2.225628395392717" inDistance="70.60453243241541" outRotation="-0.9097531579442097" outDistance="57.0087712549569" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="pink" startX="520" startY="220" endX="920" endY="950">
+              <GradientStop colorValue="FFEBA0BD" position="0" />
+              <GradientStop colorValue="FFE89AB8" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="leg-right / right-hind-leg" id="0:303">
+        <Shape name="right-hind-leg" id="0:304">
+          <PointsPath name="Bezier contour" id="0:305" isClosed="true" isClockwise="true">
+            <CubicDetachedVertex x="1139.0" y="718.0" id="0:306" inRotation="2.274026967830645" inDistance="60.30754513325841" outRotation="-0.2758058985885225" outDistance="55.08175741568164" />
+            <CubicDetachedVertex x="1276.0" y="762.0" id="0:307" inRotation="-2.1112158270654806" inDistance="46.647615158762406" outRotation="1.0358412530088001" outDistance="62.76941930590086" />
+            <CubicDetachedVertex x="1209.0" y="901.0" id="0:308" inRotation="-0.5404195002705842" inDistance="64.1404708432983" outRotation="0.0" outDistance="53.0" />
+            <CubicDetachedVertex x="1324.0" y="950.0" id="0:309" inRotation="-2.0749622882740497" inDistance="33.12099032335839" outRotation="1.0783105609229717" outDistance="46.52956049652737" />
+            <CubicDetachedVertex x="1244.0" y="979.0" id="0:310" inRotation="0.4978223326170012" inDistance="52.354560450833695" outRotation="0.0" outDistance="0.0" />
+            <CubicDetachedVertex x="1206.0" y="959.0" id="0:311" inRotation="0.0" inDistance="0.0" outRotation="1.0789871508061981" outDistance="31.76476034853718" />
+            <CubicDetachedVertex x="1171.0" y="1006.0" id="0:312" inRotation="0.03224688243525392" inDistance="31.016124838541646" outRotation="3.141592653589793" outDistance="38.0" />
+            <CubicDetachedVertex x="1092.0" y="953.0" id="0:313" inRotation="1.09432890732119" inDistance="34.88552708502482" outRotation="0.0" outDistance="0.0" />
+            <CubicDetachedVertex x="1039.0" y="924.0" id="0:314" inRotation="0.0" inDistance="0.0" outRotation="-1.237552025683224" outDistance="82.54089895318563" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="limb" startX="200" startY="740" endX="900" endY="1030">
+              <GradientStop colorValue="FFD984A7" position="0" />
+              <GradientStop colorValue="FFD17C9F" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+      <Node name="leg-left / left-hind-leg" id="0:315">
+        <Shape name="left-hind-leg" id="0:316">
+          <PointsPath name="Bezier contour" id="0:317" isClosed="true" isClockwise="false">
+            <CubicDetachedVertex x="225.0" y="715.0" id="0:318" inRotation="0.5383745133462302" inDistance="83.86298349093002" outRotation="-2.867933332507703" outDistance="59.20304046246274" />
+            <CubicDetachedVertex x="103.0" y="773.0" id="0:319" inRotation="-1.2220253232109897" inDistance="46.8187996428785" outRotation="1.9316331098279873" outDistance="56.64803615307419" />
+            <CubicDetachedVertex x="178.0" y="901.0" id="0:320" inRotation="-2.5954260901560056" inDistance="59.682493245507096" outRotation="3.058451421701352" outDistance="48.16637831516918" />
+            <CubicDetachedVertex x="78.0" y="949.0" id="0:321" inRotation="-1.1902899496825317" inDistance="32.31098884280702" outRotation="2.044647663289657" outDistance="43.829214001622255" />
+            <CubicDetachedVertex x="156.0" y="977.0" id="0:322" inRotation="2.636302465490399" inDistance="53.71219600798314" outRotation="0.0" outDistance="0.0" />
+            <CubicDetachedVertex x="192.0" y="958.0" id="0:323" inRotation="0.0" inDistance="0.0" outRotation="2.0054665419441413" outDistance="30.870698080866262" />
+            <CubicDetachedVertex x="222.0" y="1005.0" id="0:324" inRotation="3.141592653589793" inDistance="27.0" outRotation="0.07304056530311932" outDistance="41.10960958218893" />
+            <CubicDetachedVertex x="309.0" y="951.0" id="0:325" inRotation="2.1206495094714817" inDistance="36.359317925395686" outRotation="0.0" outDistance="0.0" />
+            <CubicDetachedVertex x="368.0" y="923.0" id="0:326" inRotation="0.0" inDistance="0.0" outRotation="-1.9368528426423148" outDistance="64.25729530566937" />
+          </PointsPath>
+          <Fill name="Fill">
+            <LinearGradient name="limb" startX="200" startY="740" endX="900" endY="1030">
+              <GradientStop colorValue="FFD984A7" position="0" />
+              <GradientStop colorValue="FFD17C9F" position="1" />
+            </LinearGradient>
+          </Fill>
+        </Shape>
+      </Node>
+    </Node>
+  </Artboard>
+</Rive>
