@@ -1,0 +1,40 @@
+{
+  "artboard": "Kumka",
+  "stateMachine": "KumkaController",
+  "entry": "0:2133",
+  "states": {
+    "Idle": "0:2134",
+    "Blink": "0:2135",
+    "LookAround": "0:2136",
+    "Wave": "0:2137",
+    "Success": "0:2138"
+  },
+  "triggers": {
+    "blink": "0:2122",
+    "look": "0:2124",
+    "wave": "0:2126",
+    "success": "0:2128"
+  },
+  "animations": {
+    "Idle": {
+      "durationFrames": 300,
+      "fps": 60
+    },
+    "Blink": {
+      "durationFrames": 72,
+      "fps": 60
+    },
+    "LookAround": {
+      "durationFrames": 180,
+      "fps": 60
+    },
+    "Wave": {
+      "durationFrames": 132,
+      "fps": 60
+    },
+    "Success": {
+      "durationFrames": 126,
+      "fps": 60
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "blink": {
+    "distinctFrames": 35,
+    "samples": 60
+  },
+  "look": {
+    "distinctFrames": 34,
+    "samples": 60
+  },
+  "wave": {
+    "distinctFrames": 60,
+    "samples": 60
+  },
+  "success": {
+    "distinctFrames": 56,
+    "samples": 60
+  }
+}
