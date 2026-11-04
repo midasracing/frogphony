@@ -98,3 +98,11 @@ Original source code in this repository is licensed under the [MIT License](LICE
   <sub>Built in public by <a href="https://github.com/midasracing">midasracing</a> · <a href="https://midasracing.github.io/frogphony/">Open Frogphony</a></sub>
 
 </div>
+
+## Animated mascot (Rive)
+
+The animated Kumka is rendered by `@rive-app/react-webgl2` in `src/Kumka.tsx`, using the native file at `public/animations/kumka.riv`. It runs the `KumkaController` state machine on the `Kumka` artboard, with ViewModel triggers `blink`, `look`, `wave`, `success` (the schema is documented in `design/kumka-animation/rig-manifest.json`).
+
+Click Kumka on the home screen to wave. In practice questions, correct answers trigger celebration, and incorrect answers trigger a look; the finishing screen also celebrates. If Rive hasn't loaded, the approved `kumka.png` is displayed instead.
+
+The Rive asset was built locally with the Rive CLI and may need a signed publish/export if a particular Rive web runtime refuses the binary. Verify on the deployed GitHub Pages site. All asset URLs use Vite's `import.meta.env.BASE_URL` to work under the repository subpath.
