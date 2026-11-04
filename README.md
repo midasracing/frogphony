@@ -1,20 +1,6 @@
-<div align="center">
-
-  <img src="docs/cover.svg" alt="Frogphony — music theory and ear training, in Polish" width="100%" />
-
-  <br />
-
-  **An interactive space to learn how music works.**
-
-  A free, Polish-language learning project built around listening, practice and immediate feedback.
-
-  <br />
-
-  [**Try the demo**](https://midasracing.github.io/frogphony/) &nbsp;&nbsp;·&nbsp;&nbsp; [Run locally](#run-locally) &nbsp;&nbsp;·&nbsp;&nbsp; [Contribute](CONTRIBUTING.md)
-
-</div>
-
----
+<h1 align="center">
+  <img src="public/kumka.png" alt="Kumka, the Frogphony mascot" width="108" align="center" />&nbsp; frogphony
+</h1>
 
 ## What is Frogphony?
 
@@ -78,7 +64,6 @@ frogphony/
 │   ├── kumka.png          # Mascot artwork
 │   └── animations/        # Rive runtime asset (not yet wired into the app)
 ├── design/kumka-rive/     # Editable animation source and build scripts
-├── docs/                 # Repository visuals
 └── .github/workflows/    # GitHub Pages deployment
 ```
 
