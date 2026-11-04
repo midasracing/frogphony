@@ -1,48 +1,59 @@
+"""Preserve approved PNG byte-for-byte; animate its native Rive mesh."""
 from pathlib import Path
 from xml.etree.ElementTree import Element,SubElement,indent,tostring
-r=Element('Rive',version='1',kind='fragment');a=SubElement(r,'Artboard',name='Kumka',id='0:2',width='500',height='500',defaultStateMachineId='0:7')
-a.set('styleId','0:5');SubElement(a,'LayoutComponentStyle',id='0:5')
-ids=iter(range(100,9999))
-def node(p,name,x=0,y=0):return SubElement(p,'Node',name=name,id=f'0:{next(ids)}',x=str(x),y=str(y))
-def ellipse(p,name,x,y,w,h,c,rot=0):
- s=SubElement(p,'Shape',name=name,id=f'0:{next(ids)}',x=str(x),y=str(y),rotation=str(rot));SubElement(s,'Ellipse',width=str(w),height=str(h));f=SubElement(s,'Fill');SubElement(f,'SolidColor',colorValue='FF'+c);return s
-root=node(a,'Kumka',250,416)
-ellipse(root,'LeftFoot',-117,0,130,42,'CE809F',-.16);ellipse(root,'RightFoot',117,0,130,42,'CE809F',.16)
-body=node(root,'BreathingBody',0,0)
-ellipse(body,'Body',0,-139,306,294,'ECAFC5');ellipse(body,'LeftEyeMound',-77,-284,123,144,'ECAFC5');ellipse(body,'RightEyeMound',77,-284,123,144,'ECAFC5')
-ellipse(body,'Belly',0,-77,202,159,'F9DCE5')
-for n,x,y,w,h in [('SpotL',-118,-163,44,31),('SpotL2',-125,-125,23,22),('SpotR',121,-136,38,45),('SpotR2',114,-181,23,24)]:ellipse(body,n,x,y,w,h,'CE809F')
-l=node(body,'LeftArm',-103,-112);ellipse(l,'LeftForearm',0,38,33,102,'E39DB9',-.10);ellipse(l,'LeftPalm',4,87,49,27,'E39DB9')
-for x in [-12,0,12]:ellipse(l,'LeftFinger'+str(x),x+4,94,15,24,'E39DB9')
-arm=node(body,'RightArm',104,-112);ellipse(arm,'RightForearm',26,-24,32,100,'E39DB9',.66);ellipse(arm,'RightPalm',56,-62,41,37,'E39DB9')
-for x,y,rot in [(46,-86,-.2),(65,-84,.5),(77,-67,1.1)]:ellipse(arm,'RightFinger',x,y,16,38,'E39DB9',rot)
-face=node(body,'Face',0,0)
-eyes=[]
-for name,x in [('LeftEye',-77),('RightEye',77)]:
- e=node(face,name,x,-278);eyes.append(e)
- ellipse(e,'EyeWhite',0,0,78,99,'FFF9E8');ellipse(e,'Pupil',7 if x<0 else -7,5,45,67,'493144');ellipse(e,'Highlight',15 if x<0 else 1,-17,15,16,'FFF9E8')
-ellipse(face,'LeftNostril',-12,-214,9,13,'493144',-.4);ellipse(face,'RightNostril',12,-214,9,13,'493144',.4)
-# Curved crescent smile with cubic vertices (angles are radians).
-s=SubElement(face,'Shape',name='Smile');path=SubElement(s,'PointsPath',isClosed='true')
-for x,y,ir,ind,orr,outd in [(-53,-190,0,0,.65,36),(53,-190,2.49,36,2.2,45),(-53,-190,.94,45,0,0)]:SubElement(path,'CubicDetachedVertex',x=str(x),y=str(y),inRotation=str(ir),inDistance=str(ind),outRotation=str(orr),outDistance=str(outd))
-f=SubElement(s,'Fill');SubElement(f,'SolidColor',colorValue='FF493144')
-def animation(name,id,duration,loop='oneShot'):
- return SubElement(a,'LinearAnimation',name=name,id=id,duration=str(duration),fps='60',loopValue=loop)
+import math,base64
+r=Element('Rive',version='1',kind='fragment')
+SubElement(r,'ImageAsset',file='kumka-original.png',name='Approved Kumka original',id='0:60')
+a=SubElement(r,'Artboard',name='Kumka',id='0:2',width='500',height='500',defaultStateMachineId='0:7',styleId='0:5')
+SubElement(a,'LayoutComponentStyle',id='0:5')
+root=SubElement(a,'Node',name='Kumka',id='0:100',x='250',y='450',scaleX='0.30',scaleY='0.30')
+im=SubElement(root,'Image',name='Original artwork mesh',id='0:101',assetId='0:60',originX='0.5',originY='1')
+# Counter-clockwise boundary followed by interior grid vertices.
+w,h=1448,1086;nx,ny=40,30
+coords=[(x,0) for x in range(nx+1)]+[(nx,y) for y in range(1,ny+1)]+[(x,ny) for x in range(nx-1,-1,-1)]+[(0,y) for y in range(ny-1,0,-1)]+[(x,y) for y in range(1,ny) for x in range(1,nx)]
+lookup={xy:i for i,xy in enumerate(coords)}
+def vint(i):
+ b=[]
+ while i>127:b.append((i&127)|128);i>>=7
+ return bytes(b+[i])
+indices=[]
+for y in range(ny):
+ for x in range(nx):
+  v0,v1,v2,v3=[lookup[p] for p in [(x,y),(x+1,y),(x+1,y+1),(x,y+1)]];indices.extend([v0,v1,v2,v0,v2,v3])
+mesh=SubElement(im,'Mesh',name='Kumka deformable mesh',id='0:102',triangleIndexBytes=base64.b64encode(b''.join(vint(i) for i in indices)).decode())
+verts=[]
+for i,(gx,gy) in enumerate(coords):
+ x,y=w*gx/nx,h*gy/ny
+ v=SubElement(mesh,'ContourMeshVertex' if i<2*(nx+ny) else 'MeshVertex',name=f'v{i}',id=f'0:{1000+i}',x=str(x-w/2),y=str(y-h),u=str(x/w),v=str(y/h));verts.append((v,x,y))
+def animation(name,id,duration,loop='oneShot'):return SubElement(a,'LinearAnimation',name=name,id=id,duration=str(duration),fps='60',loopValue=loop)
 def key(anim,obj,prop,pairs):
  k=SubElement(anim,'KeyedObject',objectId=obj.attrib['id']);p=SubElement(k,'KeyedProperty',propertyKey=str(prop))
- for frame,val in pairs:SubElement(p,'KeyFrameDouble',frame=str(frame),value=str(val),interpolationType='linear')
+ for f,val in pairs:SubElement(p,'KeyFrameDouble',frame=str(f),value=str(val),interpolationType='linear')
 idle=animation('Idle','0:6',240,'loop')
-key(idle,body,17,[(0,1),(60,1.018),(120,1),(180,1.018),(240,1)])
-for e in eyes:key(idle,e,17,[(0,1),(92,1),(96,.06),(100,1),(203,1),(207,.06),(211,1),(240,1)])
-wave=animation('Wave','0:10',90);key(wave,arm,15,[(0,0),(15,-.2),(28,.23),(41,-.22),(54,.23),(70,-.15),(90,0)])
-success=animation('Success','0:11',75);key(success,root,14,[(0,416),(9,423),(24,386),(40,416),(47,423),(60,416),(75,416)]);key(success,root,17,[(0,1),(9,.94),(24,1.05),(40,1),(47,.95),(60,1),(75,1)])
-enc=animation('Encourage','0:13',90);key(enc,face,15,[(0,0),(25,-.065),(55,-.065),(90,0)])
+key(idle,root,17,[(0,.30),(60,.303),(120,.30),(180,.303),(240,.30)])
+wave=animation('Wave','0:10',90)
+def smooth(a,b,x):
+ t=max(0,min(1,(x-a)/(b-a)));return t*t*(3-2*t)
+for v,x,y in verts:
+ weight=smooth(1080,1210,x)*(1-smooth(660,790,y))
+ if weight>.001:
+  pairsx=[];pairsy=[]
+  for f,angle in [(0,0),(15,-.12),(28,.12),(41,-.12),(54,.12),(70,-.06),(90,0)]:
+   angle*=weight;dx,dy=x-1120,y-680
+   xx=1120+math.cos(angle)*dx-math.sin(angle)*dy;yy=680+math.sin(angle)*dx+math.cos(angle)*dy
+   pairsx.append((f,xx-w/2));pairsy.append((f,yy-h))
+  key(wave,v,24,pairsx);key(wave,v,25,pairsy)
+success=animation('Success','0:11',75)
+key(success,root,14,[(0,450),(9,455),(24,417),(40,450),(47,454),(60,450),(75,450)])
+key(success,root,17,[(0,.30),(9,.292),(24,.306),(40,.30),(47,.295),(60,.30),(75,.30)])
+enc=animation('Encourage','0:13',90);key(enc,root,15,[(0,0),(25,-.035),(55,-.035),(90,0)])
 sm=SubElement(a,'StateMachine',name='KumkaController',id='0:7')
-for name,id in [('wave','0:20'),('success','0:21'),('encourage','0:22')]:SubElement(sm,'StateMachineTrigger',name=name,id=id)
-lay=SubElement(sm,'StateMachineLayer',name='Expression',id='0:8');SubElement(lay,'AnyState',x='0',y='-160');SubElement(lay,'ExitState',x='200',y='-160');entry=SubElement(lay,'EntryState');SubElement(entry,'StateTransition',stateToId='0:12')
-rest=SubElement(lay,'AnimationState',x='200',y='0',id='0:12',animationId='0:6')
-for nm,anim,st,trig in [('Wave','0:10','0:30','0:20'),('Success','0:11','0:31','0:21'),('Encourage','0:13','0:32','0:22')]:
+for nm,id in [('wave','0:20'),('success','0:21'),('encourage','0:22')]:SubElement(sm,'StateMachineTrigger',name=nm,id=id)
+layer=SubElement(sm,'StateMachineLayer',name='Expression',id='0:8')
+SubElement(layer,'AnyState',x='0',y='-160');SubElement(layer,'ExitState',x='200',y='-160');entry=SubElement(layer,'EntryState');SubElement(entry,'StateTransition',stateToId='0:12')
+rest=SubElement(layer,'AnimationState',x='200',y='0',id='0:12',animationId='0:6')
+for i,(anim,st,trig) in enumerate([('0:10','0:30','0:20'),('0:11','0:31','0:21'),('0:13','0:32','0:22')]):
  t=SubElement(rest,'StateTransition',stateToId=st,duration='120');SubElement(t,'TransitionTriggerCondition',inputId=trig)
- stt=SubElement(lay,'AnimationState',x='450',y=str(180*int(st.split(':')[1])-5400),id=st,animationId=anim);SubElement(stt,'StateTransition',stateToId='0:12',duration='120',enableExitTime='true',exitTimeIsPercetange='true',exitTime='100')
-for n in r.iter('Node'): n[:] = list(reversed(list(n)))
+ s=SubElement(layer,'AnimationState',x='450',y=str(180*i),id=st,animationId=anim)
+ SubElement(s,'StateTransition',stateToId='0:12',duration='120',enableExitTime='true',exitTimeIsPercetange='true',exitTime='100')
 indent(r);Path(__file__).with_name('scene.rml').write_bytes(tostring(r,encoding='utf-8'))
