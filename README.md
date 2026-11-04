@@ -1,6 +1,6 @@
-<h1 align="center">
-  <img src="public/kumka.png" alt="Kumka, the Frogphony mascot" width="108" align="center" />&nbsp; frogphony
-</h1>
+<p align="center">
+  <img src="public/kumka.png" alt="Kumka" width="110" />&nbsp;&nbsp;<img src="docs/wordmark.svg" alt="frogphony" width="220" />
+</p>
 
 ## What is Frogphony?
 
