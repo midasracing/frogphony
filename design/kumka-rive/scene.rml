@@ -1,0 +1,311 @@
+<Rive version="1" kind="fragment">
+  <Artboard name="Kumka" id="0:2" width="500" height="500" defaultStateMachineId="0:7" styleId="0:5">
+    <LayoutComponentStyle id="0:5" />
+    <Node name="Kumka" id="0:100" x="250" y="416">
+      <Node name="BreathingBody" id="0:103" x="0" y="0">
+        <Node name="Face" id="0:124" x="0" y="0">
+          <Shape name="Smile">
+            <PointsPath isClosed="true">
+              <CubicDetachedVertex x="-53" y="-190" inRotation="0" inDistance="0" outRotation="0.65" outDistance="36" />
+              <CubicDetachedVertex x="53" y="-190" inRotation="2.49" inDistance="36" outRotation="2.2" outDistance="45" />
+              <CubicDetachedVertex x="-53" y="-190" inRotation="0.94" inDistance="45" outRotation="0" outDistance="0" />
+            </PointsPath>
+            <Fill>
+              <SolidColor colorValue="FF493144" />
+            </Fill>
+          </Shape>
+          <Shape name="RightNostril" id="0:134" x="12" y="-214" rotation="0.4">
+            <Ellipse width="9" height="13" />
+            <Fill>
+              <SolidColor colorValue="FF493144" />
+            </Fill>
+          </Shape>
+          <Shape name="LeftNostril" id="0:133" x="-12" y="-214" rotation="-0.4">
+            <Ellipse width="9" height="13" />
+            <Fill>
+              <SolidColor colorValue="FF493144" />
+            </Fill>
+          </Shape>
+          <Node name="RightEye" id="0:129" x="77" y="-278">
+            <Shape name="Highlight" id="0:132" x="1" y="-17" rotation="0">
+              <Ellipse width="15" height="16" />
+              <Fill>
+                <SolidColor colorValue="FFFFF9E8" />
+              </Fill>
+            </Shape>
+            <Shape name="Pupil" id="0:131" x="-7" y="5" rotation="0">
+              <Ellipse width="45" height="67" />
+              <Fill>
+                <SolidColor colorValue="FF493144" />
+              </Fill>
+            </Shape>
+            <Shape name="EyeWhite" id="0:130" x="0" y="0" rotation="0">
+              <Ellipse width="78" height="99" />
+              <Fill>
+                <SolidColor colorValue="FFFFF9E8" />
+              </Fill>
+            </Shape>
+          </Node>
+          <Node name="LeftEye" id="0:125" x="-77" y="-278">
+            <Shape name="Highlight" id="0:128" x="15" y="-17" rotation="0">
+              <Ellipse width="15" height="16" />
+              <Fill>
+                <SolidColor colorValue="FFFFF9E8" />
+              </Fill>
+            </Shape>
+            <Shape name="Pupil" id="0:127" x="7" y="5" rotation="0">
+              <Ellipse width="45" height="67" />
+              <Fill>
+                <SolidColor colorValue="FF493144" />
+              </Fill>
+            </Shape>
+            <Shape name="EyeWhite" id="0:126" x="0" y="0" rotation="0">
+              <Ellipse width="78" height="99" />
+              <Fill>
+                <SolidColor colorValue="FFFFF9E8" />
+              </Fill>
+            </Shape>
+          </Node>
+        </Node>
+        <Node name="RightArm" id="0:118" x="104" y="-112">
+          <Shape name="RightFinger" id="0:123" x="77" y="-67" rotation="1.1">
+            <Ellipse width="16" height="38" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+          <Shape name="RightFinger" id="0:122" x="65" y="-84" rotation="0.5">
+            <Ellipse width="16" height="38" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+          <Shape name="RightFinger" id="0:121" x="46" y="-86" rotation="-0.2">
+            <Ellipse width="16" height="38" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+          <Shape name="RightPalm" id="0:120" x="56" y="-62" rotation="0">
+            <Ellipse width="41" height="37" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+          <Shape name="RightForearm" id="0:119" x="26" y="-24" rotation="0.66">
+            <Ellipse width="32" height="100" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+        </Node>
+        <Node name="LeftArm" id="0:112" x="-103" y="-112">
+          <Shape name="LeftFinger12" id="0:117" x="16" y="94" rotation="0">
+            <Ellipse width="15" height="24" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+          <Shape name="LeftFinger0" id="0:116" x="4" y="94" rotation="0">
+            <Ellipse width="15" height="24" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+          <Shape name="LeftFinger-12" id="0:115" x="-8" y="94" rotation="0">
+            <Ellipse width="15" height="24" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+          <Shape name="LeftPalm" id="0:114" x="4" y="87" rotation="0">
+            <Ellipse width="49" height="27" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+          <Shape name="LeftForearm" id="0:113" x="0" y="38" rotation="-0.1">
+            <Ellipse width="33" height="102" />
+            <Fill>
+              <SolidColor colorValue="FFE39DB9" />
+            </Fill>
+          </Shape>
+        </Node>
+        <Shape name="SpotR2" id="0:111" x="114" y="-181" rotation="0">
+          <Ellipse width="23" height="24" />
+          <Fill>
+            <SolidColor colorValue="FFCE809F" />
+          </Fill>
+        </Shape>
+        <Shape name="SpotR" id="0:110" x="121" y="-136" rotation="0">
+          <Ellipse width="38" height="45" />
+          <Fill>
+            <SolidColor colorValue="FFCE809F" />
+          </Fill>
+        </Shape>
+        <Shape name="SpotL2" id="0:109" x="-125" y="-125" rotation="0">
+          <Ellipse width="23" height="22" />
+          <Fill>
+            <SolidColor colorValue="FFCE809F" />
+          </Fill>
+        </Shape>
+        <Shape name="SpotL" id="0:108" x="-118" y="-163" rotation="0">
+          <Ellipse width="44" height="31" />
+          <Fill>
+            <SolidColor colorValue="FFCE809F" />
+          </Fill>
+        </Shape>
+        <Shape name="Belly" id="0:107" x="0" y="-77" rotation="0">
+          <Ellipse width="202" height="159" />
+          <Fill>
+            <SolidColor colorValue="FFF9DCE5" />
+          </Fill>
+        </Shape>
+        <Shape name="RightEyeMound" id="0:106" x="77" y="-284" rotation="0">
+          <Ellipse width="123" height="144" />
+          <Fill>
+            <SolidColor colorValue="FFECAFC5" />
+          </Fill>
+        </Shape>
+        <Shape name="LeftEyeMound" id="0:105" x="-77" y="-284" rotation="0">
+          <Ellipse width="123" height="144" />
+          <Fill>
+            <SolidColor colorValue="FFECAFC5" />
+          </Fill>
+        </Shape>
+        <Shape name="Body" id="0:104" x="0" y="-139" rotation="0">
+          <Ellipse width="306" height="294" />
+          <Fill>
+            <SolidColor colorValue="FFECAFC5" />
+          </Fill>
+        </Shape>
+      </Node>
+      <Shape name="RightFoot" id="0:102" x="117" y="0" rotation="0.16">
+        <Ellipse width="130" height="42" />
+        <Fill>
+          <SolidColor colorValue="FFCE809F" />
+        </Fill>
+      </Shape>
+      <Shape name="LeftFoot" id="0:101" x="-117" y="0" rotation="-0.16">
+        <Ellipse width="130" height="42" />
+        <Fill>
+          <SolidColor colorValue="FFCE809F" />
+        </Fill>
+      </Shape>
+    </Node>
+    <LinearAnimation name="Idle" id="0:6" duration="240" fps="60" loopValue="loop">
+      <KeyedObject objectId="0:103">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="60" value="1.018" interpolationType="linear" />
+          <KeyFrameDouble frame="120" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="180" value="1.018" interpolationType="linear" />
+          <KeyFrameDouble frame="240" value="1" interpolationType="linear" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:125">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="92" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="96" value="0.06" interpolationType="linear" />
+          <KeyFrameDouble frame="100" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="203" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="207" value="0.06" interpolationType="linear" />
+          <KeyFrameDouble frame="211" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="240" value="1" interpolationType="linear" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:129">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="92" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="96" value="0.06" interpolationType="linear" />
+          <KeyFrameDouble frame="100" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="203" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="207" value="0.06" interpolationType="linear" />
+          <KeyFrameDouble frame="211" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="240" value="1" interpolationType="linear" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="Wave" id="0:10" duration="90" fps="60" loopValue="oneShot">
+      <KeyedObject objectId="0:118">
+        <KeyedProperty propertyKey="15">
+          <KeyFrameDouble frame="0" value="0" interpolationType="linear" />
+          <KeyFrameDouble frame="15" value="-0.2" interpolationType="linear" />
+          <KeyFrameDouble frame="28" value="0.23" interpolationType="linear" />
+          <KeyFrameDouble frame="41" value="-0.22" interpolationType="linear" />
+          <KeyFrameDouble frame="54" value="0.23" interpolationType="linear" />
+          <KeyFrameDouble frame="70" value="-0.15" interpolationType="linear" />
+          <KeyFrameDouble frame="90" value="0" interpolationType="linear" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="Success" id="0:11" duration="75" fps="60" loopValue="oneShot">
+      <KeyedObject objectId="0:100">
+        <KeyedProperty propertyKey="14">
+          <KeyFrameDouble frame="0" value="416" interpolationType="linear" />
+          <KeyFrameDouble frame="9" value="423" interpolationType="linear" />
+          <KeyFrameDouble frame="24" value="386" interpolationType="linear" />
+          <KeyFrameDouble frame="40" value="416" interpolationType="linear" />
+          <KeyFrameDouble frame="47" value="423" interpolationType="linear" />
+          <KeyFrameDouble frame="60" value="416" interpolationType="linear" />
+          <KeyFrameDouble frame="75" value="416" interpolationType="linear" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:100">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="9" value="0.94" interpolationType="linear" />
+          <KeyFrameDouble frame="24" value="1.05" interpolationType="linear" />
+          <KeyFrameDouble frame="40" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="47" value="0.95" interpolationType="linear" />
+          <KeyFrameDouble frame="60" value="1" interpolationType="linear" />
+          <KeyFrameDouble frame="75" value="1" interpolationType="linear" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="Encourage" id="0:13" duration="90" fps="60" loopValue="oneShot">
+      <KeyedObject objectId="0:124">
+        <KeyedProperty propertyKey="15">
+          <KeyFrameDouble frame="0" value="0" interpolationType="linear" />
+          <KeyFrameDouble frame="25" value="-0.065" interpolationType="linear" />
+          <KeyFrameDouble frame="55" value="-0.065" interpolationType="linear" />
+          <KeyFrameDouble frame="90" value="0" interpolationType="linear" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <StateMachine name="KumkaController" id="0:7">
+      <StateMachineTrigger name="wave" id="0:20" />
+      <StateMachineTrigger name="success" id="0:21" />
+      <StateMachineTrigger name="encourage" id="0:22" />
+      <StateMachineLayer name="Expression" id="0:8">
+        <AnyState x="0" y="-160" />
+        <ExitState x="200" y="-160" />
+        <EntryState>
+          <StateTransition stateToId="0:12" />
+        </EntryState>
+        <AnimationState x="200" y="0" id="0:12" animationId="0:6">
+          <StateTransition stateToId="0:30" duration="120">
+            <TransitionTriggerCondition inputId="0:20" />
+          </StateTransition>
+          <StateTransition stateToId="0:31" duration="120">
+            <TransitionTriggerCondition inputId="0:21" />
+          </StateTransition>
+          <StateTransition stateToId="0:32" duration="120">
+            <TransitionTriggerCondition inputId="0:22" />
+          </StateTransition>
+        </AnimationState>
+        <AnimationState x="450" y="0" id="0:30" animationId="0:10">
+          <StateTransition stateToId="0:12" duration="120" enableExitTime="true" exitTimeIsPercetange="true" exitTime="100" />
+        </AnimationState>
+        <AnimationState x="450" y="180" id="0:31" animationId="0:11">
+          <StateTransition stateToId="0:12" duration="120" enableExitTime="true" exitTimeIsPercetange="true" exitTime="100" />
+        </AnimationState>
+        <AnimationState x="450" y="360" id="0:32" animationId="0:13">
+          <StateTransition stateToId="0:12" duration="120" enableExitTime="true" exitTimeIsPercetange="true" exitTime="100" />
+        </AnimationState>
+      </StateMachineLayer>
+    </StateMachine>
+  </Artboard>
+</Rive>
